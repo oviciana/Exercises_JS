@@ -4,7 +4,7 @@
 function fnCalculatorPlus(){
   var sOperation = arguments[0]
   var nNum = arguments[1]
-  for(pos = 2; pos < arguments.length; pos++){
+  for(var pos = 2; pos < arguments.length; pos++){
     switch(sOperation){
       case "suma":
         nNum += arguments[pos]

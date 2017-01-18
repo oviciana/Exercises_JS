@@ -5,7 +5,7 @@ function fnConvertHex(sColor){
   var aColor = sColor.split("")
   var aNum = []
   var nCont = 0
-  for(pos = 1; pos < aColor.length; pos += 2){
+  for(var pos = 1; pos < aColor.length; pos += 2){
     var x1 = parseInt(aColor[pos],16)
     var x2 = parseInt(aColor[pos + 1],16)
     aNum[nCont] = (x1 * x2)
